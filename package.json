@@ -4,6 +4,7 @@
   "description": "Node API and React client wrapped in Docker",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/andvarp/docker-react-node/issues"
   },
-  "homepage": "https://github.com/andvarp/docker-react-node#readme"
+  "homepage": "https://github.com/andvarp/docker-react-node#readme",
+  "devDependencies": {
+    "express": "^4.17.1"
+  }
 }
